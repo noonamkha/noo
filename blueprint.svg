@@ -40,8 +40,8 @@
        units="px"
        originx="0"
        originy="0"
-       spacingx="0.9999999769907156"
-       spacingy="1.000000028257018"
+       spacingx="1"
+       spacingy="1"
        empcolor="#0099e5"
        empopacity="0.3019607843137255"
        color="#0099e5"
@@ -67,293 +67,235 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 272,336 V 432"
-       id="path29"
-       inkscape:label="tetris-1n-1" />
+       id="tetris-1n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 304,336 V 308 A 4,4 0 0 0 300,304 H 276 A 4,4 0 0 1 272,300 V 272"
-       id="path21"
-       inkscape:label="tetris-1n-2" />
+       id="tetris-1n-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 304,336 V 316 A 12,12 0 0 0 292,304 H 284 A 12,12 0 0 1 272,292 V 272"
-       id="path23"
-       inkscape:label="tetris-1n-3" />
+       id="tetris-1n-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 336,368 V 396 A 4,4 0 0 0 340,400 H 364 A 4,4 0 0 1 368,404 V 432"
-       id="path20"
-       inkscape:label="tetris-1n-4" />
+       id="tetris-1n-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 336,368 V 388 A 12,12 0 0 0 348,400 H 356 A 12,12 0 0 1 368,412 V 432"
-       id="path20-6"
-       inkscape:label="tetris-1n-5" />
+       id="tetris-1n-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 368,368 V 272"
-       id="path24"
-       inkscape:label="tetris-1n-6" />
+       id="tetris-1n-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 432,368 V 432"
-       id="path33"
-       inkscape:label="tetris-2a-1" />
+       id="tetris-2a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 432,368 V 388 A 12,12 0 0 0 444,400 H 464"
-       id="path4"
-       inkscape:label="tetris-2a-2" />
+       id="tetris-2a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 432,432 V 412 A 12,12 0 0 1 444,400 H 464"
-       id="path5"
-       inkscape:label="tetris-2a-3" />
+       id="tetris-2a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 528,368 V 432"
-       id="path34"
-       inkscape:label="tetris-2a-4" />
+       id="tetris-2a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 528,368 V 388 A 12,12 0 0 1 516,400 H 496"
-       id="path4-0"
-       inkscape:label="tetris-2a-5" />
+       id="tetris-2a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 528,432 V 412 A 12,12 0 0 0 516,400 H 496"
-       id="path5-7"
-       inkscape:label="tetris-2a-6" />
+       id="tetris-2a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 432,336 V 308 A 4,4 0 0 1 436,304 H 460 A 4,4 0 0 0 464,300 V 272"
-       id="path21-6-8"
-       inkscape:label="tetris-2a-7" />
+       id="tetris-2a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 432,336 V 316 A 12,12 0 0 1 444,304 H 452 A 12,12 0 0 0 464,292 V 272"
-       id="path23-3-1"
-       inkscape:label="tetris-2a-8" />
+       id="tetris-2a-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 528,336 V 308 A 4,4 0 0 0 524,304 H 500 A 4,4 0 0 1 496,300 V 272"
-       id="path21-6"
-       inkscape:label="tetris-2a-9" />
+       id="tetris-2a-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 528,336 V 316 A 12,12 0 0 0 516,304 H 508 A 12,12 0 0 1 496,292 V 272"
-       id="path23-3"
-       inkscape:label="tetris-2a-10" />
+       id="tetris-2a-10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 464,368 V 336"
-       id="path38"
-       inkscape:label="tetris-2a-11" />
+       id="tetris-2a-11" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 472,368 V 336"
-       id="path38-2"
-       inkscape:label="tetris-2a-12" />
+       id="tetris-2a-12" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 480,368 V 336"
-       id="path39"
-       inkscape:label="tetris-2a-13" />
+       id="tetris-2a-13" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 488,368 V 336"
-       id="path40"
-       inkscape:label="tetris-2a-14" />
+       id="tetris-2a-14" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 496,368 V 336"
-       id="path41"
-       inkscape:label="tetris-2a-15" />
+       id="tetris-2a-15" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 592,336 V 432"
-       id="path29-9"
-       inkscape:label="tetris-3m-1" />
+       id="tetris-3m-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 688,336 V 432"
-       id="path29-9-5"
-       inkscape:label="tetris-3m-2" />
+       id="tetris-3m-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 624,336 V 308 A 4,4 0 0 0 620,304 H 596 A 4,4 0 0 1 592,300 V 272"
-       id="path21-6-4"
-       inkscape:label="tetris-3m-3" />
+       id="tetris-3m-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 624,336 V 316 A 12,12 0 0 0 612,304 H 604 A 12,12 0 0 1 592,292 V 272"
-       id="path23-3-4"
-       inkscape:label="tetris-3m-4" />
+       id="tetris-3m-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 656,336 V 308 A 4,4 0 0 1 660,304 H 684 A 4,4 0 0 0 688,300 V 272"
-       id="path21-6-3"
-       inkscape:label="tetris-3m-5" />
+       id="tetris-3m-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 656,336 V 316 A 12,12 0 0 1 668,304 H 676 A 12,12 0 0 0 688,292 V 272"
-       id="path23-3-7"
-       inkscape:label="tetris-3m-6" />
+       id="tetris-3m-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 784,368 H 756 A 4,4 0 0 0 752,372 V 432"
-       id="path36"
-       inkscape:label="tetris-4k-1" />
+       id="tetris-4k-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 784,368 H 764 A 12,12 0 0 0 752,380 V 432"
-       id="path36-2"
-       inkscape:label="tetris-4k-2" />
+       id="tetris-4k-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 784,336 H 756 A 4,4 0 0 1 752,332 V 272"
-       id="path35"
-       inkscape:label="tetris-4k-3" />
+       id="tetris-4k-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 784,336 H 764 A 12,12 0 0 1 752,324 V 272"
-       id="path35-4"
-       inkscape:label="tetris-4k-4" />
+       id="tetris-4k-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,368 V 396 A 4,4 0 0 0 820,400 H 844 A 4,4 0 0 1 848,404 V 432"
-       id="path20-2"
-       inkscape:label="tetris-4k-5" />
+       id="tetris-4k-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,368 V 388 A 12,12 0 0 0 828,400 H 836 A 12,12 0 0 1 848,412 V 432"
-       id="path20-6-2"
-       inkscape:label="tetris-4k-6" />
+       id="tetris-4k-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,336 V 308 A 4,4 0 0 1 820,304 H 844 A 4,4 0 0 0 848,300 V 272"
-       id="path21-6-2"
-       inkscape:label="tetris-4k-7" />
+       id="tetris-4k-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,336 V 316 A 12,12 0 0 1 828,304 H 836 A 12,12 0 0 0 848,292 V 272"
-       id="path23-3-11"
-       inkscape:label="tetris-4k-8" />
+       id="tetris-4k-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 944,368 H 916 A 4,4 0 0 0 912,372 V 432"
-       id="path36-20"
-       inkscape:label="tetris-5h-1" />
+       id="tetris-5h-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 944,368 H 924 A 12,12 0 0 0 912,380 V 432"
-       id="path36-2-7"
-       inkscape:label="tetris-5h-2" />
+       id="tetris-5h-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 976,368 H 1004 A 4,4 0 0 1 1008,372 V 432"
-       id="path36-26"
-       inkscape:label="tetris-5h-3" />
+       id="tetris-5h-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 976,368 H 996 A 12,12 0 0 1 1008,380 V 432"
-       id="path36-2-5"
-       inkscape:label="tetris-5h-4" />
+       id="tetris-5h-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 944,336 H 916 A 4,4 0 0 1 912,332 V 272"
-       id="path35-9"
-       inkscape:label="tetris-5h-5" />
+       id="tetris-5h-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 944,336 H 924 A 12,12 0 0 1 912,324 V 272"
-       id="path35-4-0"
-       inkscape:label="tetris-5h-6" />
+       id="tetris-5h-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 976,336 H 1004 A 4,4 0 0 0 1008,332 V 272"
-       id="path35-49"
-       inkscape:label="tetris-5h-7" />
+       id="tetris-5h-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 976,336 H 996 A 12,12 0 0 0 1008,324 V 272"
-       id="path35-4-7"
-       inkscape:label="tetris-5h-8" />
+       id="tetris-5h-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1072,368 V 432"
-       id="path33-4"
-       inkscape:label="tetris-6a-1" />
+       id="tetris-6a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1072,368 V 388 A 12,12 0 0 0 1084,400 H 1104"
-       id="path4-2"
-       inkscape:label="tetris-6a-2" />
+       id="tetris-6a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1072,432 V 412 A 12,12 0 0 1 1084,400 H 1104"
-       id="path5-5"
-       inkscape:label="tetris-6a-3" />
+       id="tetris-6a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,368 V 432"
-       id="path34-1"
-       inkscape:label="tetris-6a-4" />
+       id="tetris-6a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,368 V 388 A 12,12 0 0 1 1156,400 H 1136"
-       id="path4-0-2"
-       inkscape:label="tetris-6a-5" />
+       id="tetris-6a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,432 V 412 A 12,12 0 0 0 1156,400 H 1136"
-       id="path5-7-5"
-       inkscape:label="tetris-6a-6" />
+       id="tetris-6a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1072,336 V 308 A 4,4 0 0 1 1076,304 H 1100 A 4,4 0 0 0 1104,300 V 272"
-       id="path21-6-8-7"
-       inkscape:label="tetris-6a-7" />
+       id="tetris-6a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1072,336 V 316 A 12,12 0 0 1 1084,304 H 1092 A 12,12 0 0 0 1104,292 V 272"
-       id="path23-3-1-1"
-       inkscape:label="tetris-6a-8" />
+       id="tetris-6a-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,336 V 308 A 4,4 0 0 0 1164,304 H 1140 A 4,4 0 0 1 1136,300 V 272"
-       id="path21-6-23"
-       inkscape:label="tetris-6a-9" />
+       id="tetris-6a-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,336 V 316 A 12,12 0 0 0 1156,304 H 1148 A 12,12 0 0 1 1136,292 V 272"
-       id="path23-3-6"
-       inkscape:label="tetris-6a-10" />
+       id="tetris-6a-10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1104,368 V 336"
-       id="path38-7"
-       inkscape:label="tetris-6a-11" />
+       id="tetris-6a-11" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 1112,368 V 336"
-       id="path38-2-9"
-       inkscape:label="tetris-6a-12" />
+       id="tetris-6a-12" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 1120,368 V 336"
-       id="path39-9"
-       inkscape:label="tetris-6a-13" />
+       id="tetris-6a-13" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 1128,368 V 336"
-       id="path40-7"
-       inkscape:label="tetris-6a-14" />
+       id="tetris-6a-14" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1136,368 V 336"
-       id="path41-6"
-       inkscape:label="tetris-6a-15" />
+       id="tetris-6a-15" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -363,183 +305,147 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 435,697 A 53,53 0 0 1 480,672"
-       id="path2-6"
-       inkscape:label="sign-1n-1" />
+       id="sign-1n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 480,672 A 16,16 0 0 1 496,688"
-       id="path2-1"
-       inkscape:label="sign-1n-2" />
+       id="sign-1n-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 496,688 V 736"
-       id="path10"
-       inkscape:label="sign-1n-3" />
+       id="sign-1n-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 496,712 A 40,40 0 0 1 536,672"
-       id="path2-2"
-       inkscape:label="sign-1n-4" />
+       id="sign-1n-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 536,672 A 24,24 0 0 1 560,696"
-       id="path2-4"
-       inkscape:label="sign-1n-5" />
+       id="sign-1n-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 560,696 V 720"
-       id="path11"
-       inkscape:label="sign-1n-6" />
+       id="sign-1n-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 576,736 A 16,16 0 0 1 560,720"
-       id="path2-1-9"
-       inkscape:label="sign-1n-7" />
+       id="sign-1n-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 624,705.5 A 53,53 0 0 1 576,736"
-       id="path2-41-3-8"
-       inkscape:label="sign-1n-8" />
+       id="sign-1n-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 624,544 V 944"
-       id="path12"
-       inkscape:label="sign-2k-1" />
+       id="sign-2k-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 624,944 A 16,16 0 0 1 608,960"
-       id="path2-61"
-       inkscape:label="sign-2k-2" />
+       id="sign-2k-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 608,960 A 32,32 0 0 1 576,928"
-       id="path2-9"
-       inkscape:label="sign-2k-3" />
+       id="sign-2k-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 576,928 A 424,424 0 0 1 624,732"
-       id="path2-62"
-       inkscape:label="sign-2k-4" />
+       id="sign-2k-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 624,712 A 40,40 0 0 1 664,672"
-       id="path2-2-5"
-       inkscape:label="sign-2k-5" />
+       id="sign-2k-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 664,672 A 24,24 0 0 1 688,696"
-       id="path2-4-5"
-       inkscape:label="sign-2k-6" />
+       id="sign-2k-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 688,696 A 22,22 0 0 1 666,718"
-       id="path2-7"
-       inkscape:label="sign-2k-7" />
+       id="sign-2k-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 666,718 A 8,6 0 0 1 666,706"
-       id="path7"
-       inkscape:label="sign-2k-8" />
+       id="sign-2k-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 666,706 A 6,6 0 0 1 672,712"
-       id="path13"
-       inkscape:label="sign-2k-9" />
+       id="sign-2k-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 678,721 A 30,30 0 0 0 704,736"
-       id="path2-3"
-       inkscape:label="sign-2k-10" />
+       id="sign-2k-10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 752,705.5 A 53,53 0 0 1 704,736"
-       id="path2-41-3"
-       inkscape:label="sign-2k-11" />
+       id="sign-2k-11" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 752,544 V 944"
-       id="path12-1"
-       inkscape:label="sign-3h-1" />
+       id="sign-3h-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 752,944 A 16,16 0 0 1 736,960"
-       id="path2-61-5"
-       inkscape:label="sign-3h-2" />
+       id="sign-3h-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 736,960 A 32,32 0 0 1 704,928"
-       id="path2-9-5"
-       inkscape:label="sign-3h-3" />
+       id="sign-3h-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 704,928 A 424,424 0 0 1 752,732"
-       id="path2-62-7"
-       inkscape:label="sign-3h-4" />
+       id="sign-3h-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 752,712 A 40,40 0 0 1 792,672"
-       id="path2-2-5-9"
-       inkscape:label="sign-3h-5" />
+       id="sign-3h-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 792,672 A 24,24 0 0 1 816,696"
-       id="path2-4-5-8"
-       inkscape:label="sign-3h-6" />
+       id="sign-3h-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,696 V 720"
-       id="path16"
-       inkscape:label="sign-3h-7" />
+       id="sign-3h-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 832,736 A 16,16 0 0 1 816,720"
-       id="path2-1-9-5"
-       inkscape:label="sign-3h-8" />
+       id="sign-3h-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 880.7,704 A 53,53 0 0 1 832,736"
-       id="path2-41"
-       inkscape:label="sign-3h-9" />
+       id="sign-3h-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 920,672 A 24,24 0 0 1 944,696"
-       id="path2-4-5-8-9"
-       inkscape:label="sign-4a-1" />
+       id="sign-4a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 880,712 A 40,40 0 0 1 920,672"
-       id="path2-2-5-9-6"
-       inkscape:label="sign-4a-2" />
+       id="sign-4a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 904,736 A 24,24 0 0 1 880,712"
-       id="path2-4-5-8-9-5"
-       inkscape:label="sign-4a-3" />
+       id="sign-4a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 944,696 A 40,40 0 0 1 904,736"
-       id="path2-2-5-9-6-6"
-       inkscape:label="sign-4a-4" />
+       id="sign-4a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 944,672 V 720"
-       id="path17"
-       inkscape:label="sign-4a-5" />
+       id="sign-4a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 960,736 A 16,16 0 0 1 944,720"
-       id="path2-1-6"
-       inkscape:label="sign-4a-6" />
+       id="sign-4a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1005,711 A 53,53 0 0 1 960,736"
-       id="path2-6-18"
-       inkscape:label="sign-4a-7" />
+       id="sign-4a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 272,768 H 1168"
-       id="path18"
-       inkscape:label="sign-5d-1" />
+       id="sign-5d-1" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -549,177 +455,142 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 272,1168 V 1040"
-       id="path19"
-       inkscape:label="name-1n-1" />
+       id="name-1n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 272,1040 L 352,1120"
-       id="path26"
-       inkscape:label="name-1n-2" />
+       id="name-1n-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 352,1168 V 1040"
-       id="path19-9"
-       inkscape:label="name-1n-3" />
+       id="name-1n-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 441.6,1156.8 L 435.2,1161.6"
-       id="path6"
-       inkscape:label="name-2o-1" />
+       id="name-2o-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 435.2,1161.6 A 32,32 0 1 1 441.6,1116.8"
-       id="path37"
-       inkscape:label="name-2o-2" />
+       id="name-2o-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 441.6,1116.8 L 470.4,1155.2"
-       id="path24-9"
-       inkscape:label="name-2o-3" />
+       id="name-2o-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 470.4,1155.2 A 32,32 0 1 0 476.8,1110.4"
-       id="path9-4"
-       inkscape:label="name-2o-4" />
+       id="name-2o-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 470.4,1115.2 L 476.8,1110.4"
-       id="path22"
-       inkscape:label="name-2o-5" />
+       id="name-2o-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 560,1168 V 1040"
-       id="path19-8"
-       inkscape:label="name-3n-1" />
+       id="name-3n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 560,1040 L 640,1120"
-       id="path26-5"
-       inkscape:label="name-3n-2" />
+       id="name-3n-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 640,1168 V 1040"
-       id="path19-9-6"
-       inkscape:label="name-3n-3" />
+       id="name-3n-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 712,1104 A 24,24 0 0 1 736,1128"
-       id="path2-4-5-8-9-3"
-       inkscape:label="name-4a-1" />
+       id="name-4a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 672,1144 A 40,40 0 0 1 712,1104"
-       id="path2-2-5-9-6-61"
-       inkscape:label="name-4a-2" />
+       id="name-4a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 696,1168 A 24,24 0 0 1 672,1144"
-       id="path2-4-5-8-9-5-9"
-       inkscape:label="name-4a-3" />
+       id="name-4a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 736,1128 A 40,40 0 0 1 696,1168"
-       id="path2-2-5-9-6-6-8"
-       inkscape:label="name-4a-4" />
+       id="name-4a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 736,1104 V 1168"
-       id="path27"
-       inkscape:label="name-4a-5" />
+       id="name-4a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 768,1104 V 1168"
-       id="path27-1"
-       inkscape:label="name-5m-1" />
+       id="name-5m-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 800,1104 A 32,32 0 0 0 768,1136"
-       id="path2-9-5-7"
-       inkscape:label="name-5m-2" />
+       id="name-5m-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,1120 A 16,16 0 0 0 800,1104"
-       id="path2-61-5-3"
-       inkscape:label="name-5m-3" />
+       id="name-5m-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 816,1120 V 1168"
-       id="path28"
-       inkscape:label="name-5m-4" />
+       id="name-5m-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 848,1104 A 32,32 0 0 0 816,1136"
-       id="path2-9-5-7-3"
-       inkscape:label="name-5m-5" />
+       id="name-5m-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 864,1120 A 16,16 0 0 0 848,1104"
-       id="path2-61-5-3-1"
-       inkscape:label="name-5m-6" />
+       id="name-5m-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 864,1120 V 1168"
-       id="path28-0"
-       inkscape:label="name-5m-7" />
+       id="name-5m-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 896,1168 V 1040"
-       id="path19-9-6-1"
-       inkscape:label="name-6k-1" />
+       id="name-6k-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 896,1120 L 976,1040"
-       id="path30"
-       inkscape:label="name-6k-2" />
+       id="name-6k-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 912,1104 L 976,1168"
-       id="path31"
-       inkscape:label="name-6k-3" />
+       id="name-6k-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1008,1168 V 1040"
-       id="path19-9-6-1-4"
-       inkscape:label="name-7h-1" />
+       id="name-7h-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1008,1144 A 40,40 0 0 1 1048,1104"
-       id="path2-2-5-9-1"
-       inkscape:label="name-7h-2" />
+       id="name-7h-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1048,1104 A 24,24 0 0 1 1072,1128"
-       id="path2-4-5-8-4"
-       inkscape:label="name-7h-3" />
+       id="name-7h-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1072,1128 V 1168"
-       id="path32"
-       inkscape:label="name-7h-4" />
+       id="name-7h-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1144,1104 A 24,24 0 0 1 1168,1128"
-       id="path2-4-5-8-9-3-7"
-       inkscape:label="name-8a-1" />
+       id="name-8a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1104,1144 A 40,40 0 0 1 1144,1104"
-       id="path2-2-5-9-6-61-7"
-       inkscape:label="name-8a-2" />
+       id="name-8a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1128,1168 A 24,24 0 0 1 1104,1144"
-       id="path2-4-5-8-9-5-9-3"
-       inkscape:label="name-8a-3" />
+       id="name-8a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,1128 A 40,40 0 0 1 1128,1168"
-       id="path2-2-5-9-6-6-8-7"
-       inkscape:label="name-8a-4" />
+       id="name-8a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1168,1104 V 1168"
-       id="path27-3"
-       inkscape:label="name-8a-5" />
+       id="name-8a-5" />
   </g>
 </svg>
