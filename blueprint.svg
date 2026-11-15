@@ -376,7 +376,7 @@
        id="sign-2k-10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 752,705.5 A 53,53 0 0 1 704,736"
+       d="M 704,736 A 55,55 0 0 0 752,708"
        id="sign-2k-11" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -408,27 +408,27 @@
        id="sign-3h-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 832,736 A 16,16 0 0 1 816,720"
+       d="M 816,720 A 16,16 0 0 0 832,736"
        id="sign-3h-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 880.7,704 A 53,53 0 0 1 832,736"
+       d="M 832,736 A 55,55 0 0 0 880,708"
        id="sign-3h-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 920,672 A 24,24 0 0 1 944,696"
+       d="M 944,696 A 24,24 0 0 0 920,672"
        id="sign-4a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 880,712 A 40,40 0 0 1 920,672"
+       d="M 920,672 A 40,40 0 0 0 880,712"
        id="sign-4a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 904,736 A 24,24 0 0 1 880,712"
+       d="M 880,712 A 24,24 0 0 0 904,736"
        id="sign-4a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 944,696 A 40,40 0 0 1 904,736"
+       d="M 904,736 A 40,40 0 0 0 944,696"
        id="sign-4a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -436,11 +436,11 @@
        id="sign-4a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 960,736 A 16,16 0 0 1 944,720"
+       d="M 944,720 A 16,16 0 0 0 960,736"
        id="sign-4a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1005,711 A 53,53 0 0 1 960,736"
+       d="M 960,736 A 55,55 0 0 0 1008,708"
        id="sign-4a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
