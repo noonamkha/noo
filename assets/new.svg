@@ -52,6 +52,16 @@
   </sodipodi:namedview>
   <defs
      id="defs1">
+
+    <clipPath id="rounded-square">
+      <rect
+        x="456"
+        y="328"
+        width="48"
+        height="48"
+        rx="8"
+      />
+    </clipPath>
   </defs>
   <rect
      style="fill:#ffffff;stroke:none"
@@ -185,44 +195,26 @@
        id="tetris-6-a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 464,368 V 336"
-       id="tetris-7s-1" />
+       d="  M 464,368 V 336
+            M 496,368 V 336"
+       id="tetris-7-s-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 472,368 V 336"
-       id="tetris-7s-2" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 480,368 V 336"
-       id="tetris-7s-3" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 488,368 V 336"
-       id="tetris-7s-4" />
+       d="  M 472,368 V 336
+            M 480,368 V 336
+            M 488,368 V 336"
+       id="tetris-7-s-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 496,368 V 336"
-       id="tetris-7s-5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1104,368 V 336"
-       id="tetris-8s-1" />
+       d="  M 1104,368 V 336
+            M 1136,368 V 336"
+       id="tetris-8-s-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 1112,368 V 336"
-       id="tetris-8s-2" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 1120,368 V 336"
-       id="tetris-8s-3" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 1128,368 V 336"
-       id="tetris-8s-4" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1136,368 V 336"
-       id="tetris-8s-5" />
+       d="  M 1112,368 V 336
+            M 1120,368 V 336
+            M 1128,368 V 336"
+       id="tetris-8-s-2" />
   </g>
   <g
      inkscape:groupmode="layer"
