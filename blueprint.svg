@@ -69,84 +69,64 @@
        id="tetris-1n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 304,336 V 308 A 4,4 0 0 0 300,304 H 276 A 4,4 0 0 1 272,300 V 272"
+       d="M 368,368 V 272"
        id="tetris-1n-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 304,336 V 316 A 12,12 0 0 0 292,304 H 284 A 12,12 0 0 1 272,292 V 272"
+       d="M 304,336 V 308 A 4,4 0 0 0 300,304 H 276 A 4,4 0 0 1 272,300 V 272"
        id="tetris-1n-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 336,368 V 396 A 4,4 0 0 0 340,400 H 364 A 4,4 0 0 1 368,404 V 432"
+       d="M 304,336 V 316 A 12,12 0 0 0 292,304 H 284 A 12,12 0 0 1 272,292 V 272"
        id="tetris-1n-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 336,368 V 388 A 12,12 0 0 0 348,400 H 356 A 12,12 0 0 1 368,412 V 432"
+       d="M 336,368 V 396 A 4,4 0 0 0 340,400 H 364 A 4,4 0 0 1 368,404 V 432"
        id="tetris-1n-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 368,368 V 272"
+       d="M 336,368 V 388 A 12,12 0 0 0 348,400 H 356 A 12,12 0 0 1 368,412 V 432"
        id="tetris-1n-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 432,368 V 432"
+       d="M 432,336 V 308 A 4,4 0 0 1 436,304 H 460 A 4,4 0 0 0 464,300 V 272"
        id="tetris-2a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 432,368 V 388 A 12,12 0 0 0 444,400 H 464"
+       d="M 432,336 V 316 A 12,12 0 0 1 444,304 H 452 A 12,12 0 0 0 464,292 V 272"
        id="tetris-2a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 432,432 V 412 A 12,12 0 0 1 444,400 H 464"
+       d="M 528,336 V 308 A 4,4 0 0 0 524,304 H 500 A 4,4 0 0 1 496,300 V 272"
        id="tetris-2a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 528,368 V 432"
+       d="M 528,336 V 316 A 12,12 0 0 0 516,304 H 508 A 12,12 0 0 1 496,292 V 272"
        id="tetris-2a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 528,368 V 388 A 12,12 0 0 1 516,400 H 496"
+       d="M 432,368 V 432"
        id="tetris-2a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 528,432 V 412 A 12,12 0 0 0 516,400 H 496"
+       d="M 432,368 V 388 A 12,12 0 0 0 444,400 H 464"
        id="tetris-2a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 432,336 V 308 A 4,4 0 0 1 436,304 H 460 A 4,4 0 0 0 464,300 V 272"
+       d="M 432,432 V 412 A 12,12 0 0 1 444,400 H 464"
        id="tetris-2a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 432,336 V 316 A 12,12 0 0 1 444,304 H 452 A 12,12 0 0 0 464,292 V 272"
+       d="M 528,368 V 432"
        id="tetris-2a-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 528,336 V 308 A 4,4 0 0 0 524,304 H 500 A 4,4 0 0 1 496,300 V 272"
+       d="M 528,368 V 388 A 12,12 0 0 1 516,400 H 496"
        id="tetris-2a-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 528,336 V 316 A 12,12 0 0 0 516,304 H 508 A 12,12 0 0 1 496,292 V 272"
+       d="M 528,432 V 412 A 12,12 0 0 0 516,400 H 496"
        id="tetris-2a-10" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 464,368 V 336"
-       id="tetris-2a-11" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 472,368 V 336"
-       id="tetris-2a-12" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 480,368 V 336"
-       id="tetris-2a-13" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
-       d="M 488,368 V 336"
-       id="tetris-2a-14" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 496,368 V 336"
-       id="tetris-2a-15" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 592,336 V 432"
@@ -173,128 +153,148 @@
        id="tetris-3m-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 784,368 H 756 A 4,4 0 0 0 752,372 V 432"
+       d="M 784,336 H 756 A 4,4 0 0 1 752,332 V 272"
        id="tetris-4k-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 784,368 H 764 A 12,12 0 0 0 752,380 V 432"
+       d="M 784,336 H 764 A 12,12 0 0 1 752,324 V 272"
        id="tetris-4k-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 784,336 H 756 A 4,4 0 0 1 752,332 V 272"
+       d="M 784,368 H 756 A 4,4 0 0 0 752,372 V 432"
        id="tetris-4k-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 784,336 H 764 A 12,12 0 0 1 752,324 V 272"
+       d="M 784,368 H 764 A 12,12 0 0 0 752,380 V 432"
        id="tetris-4k-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 816,368 V 396 A 4,4 0 0 0 820,400 H 844 A 4,4 0 0 1 848,404 V 432"
+       d="M 816,336 V 308 A 4,4 0 0 1 820,304 H 844 A 4,4 0 0 0 848,300 V 272"
        id="tetris-4k-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 816,368 V 388 A 12,12 0 0 0 828,400 H 836 A 12,12 0 0 1 848,412 V 432"
+       d="M 816,336 V 316 A 12,12 0 0 1 828,304 H 836 A 12,12 0 0 0 848,292 V 272"
        id="tetris-4k-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 816,336 V 308 A 4,4 0 0 1 820,304 H 844 A 4,4 0 0 0 848,300 V 272"
+       d="M 816,368 V 396 A 4,4 0 0 0 820,400 H 844 A 4,4 0 0 1 848,404 V 432"
        id="tetris-4k-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 816,336 V 316 A 12,12 0 0 1 828,304 H 836 A 12,12 0 0 0 848,292 V 272"
+       d="M 816,368 V 388 A 12,12 0 0 0 828,400 H 836 A 12,12 0 0 1 848,412 V 432"
        id="tetris-4k-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 944,368 H 916 A 4,4 0 0 0 912,372 V 432"
+       d="M 944,336 H 916 A 4,4 0 0 1 912,332 V 272"
        id="tetris-5h-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 944,368 H 924 A 12,12 0 0 0 912,380 V 432"
+       d="M 944,336 H 924 A 12,12 0 0 1 912,324 V 272"
        id="tetris-5h-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 976,368 H 1004 A 4,4 0 0 1 1008,372 V 432"
+       d="M 976,336 H 1004 A 4,4 0 0 0 1008,332 V 272"
        id="tetris-5h-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 976,368 H 996 A 12,12 0 0 1 1008,380 V 432"
+       d="M 976,336 H 996 A 12,12 0 0 0 1008,324 V 272"
        id="tetris-5h-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 944,336 H 916 A 4,4 0 0 1 912,332 V 272"
+       d="M 944,368 H 916 A 4,4 0 0 0 912,372 V 432"
        id="tetris-5h-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 944,336 H 924 A 12,12 0 0 1 912,324 V 272"
+       d="M 944,368 H 924 A 12,12 0 0 0 912,380 V 432"
        id="tetris-5h-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 976,336 H 1004 A 4,4 0 0 0 1008,332 V 272"
+       d="M 976,368 H 1004 A 4,4 0 0 1 1008,372 V 432"
        id="tetris-5h-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 976,336 H 996 A 12,12 0 0 0 1008,324 V 272"
+       d="M 976,368 H 996 A 12,12 0 0 1 1008,380 V 432"
        id="tetris-5h-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1072,368 V 432"
+       d="M 1072,336 V 308 A 4,4 0 0 1 1076,304 H 1100 A 4,4 0 0 0 1104,300 V 272"
        id="tetris-6a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1072,368 V 388 A 12,12 0 0 0 1084,400 H 1104"
+       d="M 1072,336 V 316 A 12,12 0 0 1 1084,304 H 1092 A 12,12 0 0 0 1104,292 V 272"
        id="tetris-6a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1072,432 V 412 A 12,12 0 0 1 1084,400 H 1104"
+       d="M 1168,336 V 308 A 4,4 0 0 0 1164,304 H 1140 A 4,4 0 0 1 1136,300 V 272"
        id="tetris-6a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1168,368 V 432"
+       d="M 1168,336 V 316 A 12,12 0 0 0 1156,304 H 1148 A 12,12 0 0 1 1136,292 V 272"
        id="tetris-6a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1168,368 V 388 A 12,12 0 0 1 1156,400 H 1136"
+       d="M 1072,368 V 432"
        id="tetris-6a-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1168,432 V 412 A 12,12 0 0 0 1156,400 H 1136"
+       d="M 1072,368 V 388 A 12,12 0 0 0 1084,400 H 1104"
        id="tetris-6a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1072,336 V 308 A 4,4 0 0 1 1076,304 H 1100 A 4,4 0 0 0 1104,300 V 272"
+       d="M 1072,432 V 412 A 12,12 0 0 1 1084,400 H 1104"
        id="tetris-6a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1072,336 V 316 A 12,12 0 0 1 1084,304 H 1092 A 12,12 0 0 0 1104,292 V 272"
+       d="M 1168,368 V 432"
        id="tetris-6a-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1168,336 V 308 A 4,4 0 0 0 1164,304 H 1140 A 4,4 0 0 1 1136,300 V 272"
+       d="M 1168,368 V 388 A 12,12 0 0 1 1156,400 H 1136"
        id="tetris-6a-9" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1168,336 V 316 A 12,12 0 0 0 1156,304 H 1148 A 12,12 0 0 1 1136,292 V 272"
+       d="M 1168,432 V 412 A 12,12 0 0 0 1156,400 H 1136"
        id="tetris-6a-10" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
+       d="M 464,368 V 336"
+       id="tetris-7s-1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
+       d="M 472,368 V 336"
+       id="tetris-7s-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
+       d="M 480,368 V 336"
+       id="tetris-7s-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
+       d="M 488,368 V 336"
+       id="tetris-7s-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
+       d="M 496,368 V 336"
+       id="tetris-7s-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1104,368 V 336"
-       id="tetris-6a-11" />
+       id="tetris-8s-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 1112,368 V 336"
-       id="tetris-6a-12" />
+       id="tetris-8s-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 1120,368 V 336"
-       id="tetris-6a-13" />
+       id="tetris-8s-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:square;stroke-linejoin:round"
        d="M 1128,368 V 336"
-       id="tetris-6a-14" />
+       id="tetris-8s-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 1136,368 V 336"
-       id="tetris-6a-15" />
+       id="tetris-8s-5" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -302,7 +302,7 @@
      inkscape:highlight-color="#07b735">
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 432,700 A 55,55 0 0 1 480,672"
+       d="M 436,694 A 55,55 0 0 1 480,672"
        id="sign-1n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -438,7 +438,7 @@
        id="sign-4a-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 960,736 A 55,55 0 0 0 1008,708"
+       d="M 960,736 A 55,55 0 0 0 1004,714"
        id="sign-4a-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
