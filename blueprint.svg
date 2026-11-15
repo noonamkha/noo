@@ -62,8 +62,7 @@
      y="0" />
   <g
      inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="tetris">
+     id="tetris">
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
        d="M 272,336 V 432"
@@ -299,8 +298,7 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer6"
-     inkscape:label="signature"
+     id="signature"
      inkscape:highlight-color="#07b735">
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -449,8 +447,7 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer7"
-     inkscape:label="name"
+     id="name"
      inkscape:highlight-color="#2348c1">
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -482,7 +479,7 @@
        id="name-2o-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 470.4,1115.2 L 476.8,1110.4"
+       d="M 476.8,1110.4 L 470.4,1115.2"
        id="name-2o-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -498,19 +495,19 @@
        id="name-3n-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 712,1104 A 24,24 0 0 1 736,1128"
+       d="M 736,1128 A 24,24 0 0 0 712,1104"
        id="name-4a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 672,1144 A 40,40 0 0 1 712,1104"
+       d="M 712,1104 A 40,40 0 0 0 672,1144"
        id="name-4a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 696,1168 A 24,24 0 0 1 672,1144"
+       d="M 672,1144 A 24,24 0 0 0 696,1168"
        id="name-4a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 736,1128 A 40,40 0 0 1 696,1168"
+       d="M 696,1168 A 40,40 0 0 0 736,1128"
        id="name-4a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -522,11 +519,11 @@
        id="name-5m-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 800,1104 A 32,32 0 0 0 768,1136"
+       d="M 768,1136 A 32,32 0 0 1 800,1104"
        id="name-5m-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 816,1120 A 16,16 0 0 0 800,1104"
+       d="M 800,1104 A 16,16 0 0 1 816,1120"
        id="name-5m-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -534,11 +531,11 @@
        id="name-5m-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 848,1104 A 32,32 0 0 0 816,1136"
+       d="M 816,1136 A 32,32 0 0 1 848,1104"
        id="name-5m-5" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 864,1120 A 16,16 0 0 0 848,1104"
+       d="M 848,1104 A 16,16 0 0 1 864,1120"
        id="name-5m-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -546,7 +543,7 @@
        id="name-5m-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 896,1168 V 1040"
+       d="M 896,1040 V 1168"
        id="name-6k-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -558,7 +555,7 @@
        id="name-6k-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1008,1168 V 1040"
+       d="M 1008,1040 V 1168"
        id="name-7h-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -574,19 +571,19 @@
        id="name-7h-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1144,1104 A 24,24 0 0 1 1168,1128"
+       d="M 1168,1128 A 24,24 0 0 0 1144,1104"
        id="name-8a-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1104,1144 A 40,40 0 0 1 1144,1104"
+       d="M 1144,1104 A 40,40 0 0 0 1104,1144"
        id="name-8a-2" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1128,1168 A 24,24 0 0 1 1104,1144"
+       d="M 1104,1144 A 24,24 0 0 0 1128,1168"
        id="name-8a-3" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 1168,1128 A 40,40 0 0 1 1128,1168"
+       d="M 1128,1168 A 40,40 0 0 0 1168,1128"
        id="name-8a-4" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
