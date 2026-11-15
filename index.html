@@ -197,7 +197,7 @@
         }
         async function loadAndAnimateSignature() {
             if (svgNuAnim == null || svgNuStat == null) {
-                const responseNuAnim = await fetch('assets/nu-ani.svg');
+                const responseNuAnim = await fetch('assets/blueprint.svg');
                 const responseNuStat = await fetch('assets/nu-stat.svg');
                 svgNuAnim = await responseNuAnim.text();
                 svgNuStat = await responseNuStat.text();
