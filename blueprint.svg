@@ -304,7 +304,7 @@
      inkscape:highlight-color="#07b735">
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 435,697 A 53,53 0 0 1 480,672"
+       d="M 432,700 A 55,55 0 0 1 480,672"
        id="sign-1n-1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
@@ -328,11 +328,11 @@
        id="sign-1n-6" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 576,736 A 16,16 0 0 1 560,720"
+       d="M 560,720 A 16,16 0 0 0 576,736"
        id="sign-1n-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
-       d="M 624,705.5 A 53,53 0 0 1 576,736"
+       d="M 576,736 A 55,55 0 0 0 624,708"
        id="sign-1n-8" />
     <path
        style="fill:none;stroke:#000000;stroke-width:16;stroke-linecap:round;stroke-linejoin:round"
