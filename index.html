@@ -106,7 +106,7 @@
         let svgNuAnim = null
         let svgNuStat = null
         let timeInterval = null
-        let totalDuration = 3000
+        let totalDuration = 10000
 
         const themeButton = document.getElementById('themeButton');
         const modeButton = document.getElementById('modeButton');
@@ -197,8 +197,8 @@
         }
         async function loadAndAnimateSignature() {
             if (svgNuAnim == null || svgNuStat == null) {
-                const responseNuAnim = await fetch('assets/blueprint.svg');
-                const responseNuStat = await fetch('assets/nu-stat.svg');
+                const responseNuAnim = await fetch('assets/noo.svg');
+                const responseNuStat = await fetch('assets/noo.svg');
                 svgNuAnim = await responseNuAnim.text();
                 svgNuStat = await responseNuStat.text();
             }
@@ -208,6 +208,7 @@
             if (mode == 'animated') {
                 const layers = Array.from(document.querySelectorAll('g'))
                 layers.forEach((layer, index) => {
+                    console.log("lauers", layers)
                     const blockList = Array.from(layer.querySelectorAll('path'));
                     if (index == 0) {
                         tetris1 = animatePath(blockList.slice(0, -14), delayLength = 0)
@@ -216,6 +217,7 @@
                     }
                     else if (index == 1) {
                         // Single stroke
+                        console.log("blockList",blockList)
                         signature = animatePath(blockList)
                         // -------------------------------------------------------
                         // Line and Sign
@@ -237,7 +239,48 @@
                 })
             }
         }
+        const splitPathCache = new WeakMap();
+        function splitSubpaths(path) {
+            if (splitPathCache.has(path)) return splitPathCache.get(path);
+            const subpaths = (path.getAttribute('d') || '').match(/[Mm][^Mm]*/g) || [];
+            if (subpaths.length <= 1) return [path];
+
+            const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            // Keep the original styling, transform and ID on the wrapper.
+            for (const attribute of path.attributes) {
+                if (attribute.name !== 'd' && attribute.name !== 'pathLength') {
+                    group.setAttributeNS(attribute.namespaceURI, attribute.name, attribute.value);
+                }
+            }
+            let end = { x: 0, y: 0 };
+            const segments = subpaths.map(d => {
+                const segment = document.createElementNS(group.namespaceURI, 'path');
+                const move = d.match(/^[Mm]\s*([+-]?(?:\d*\.\d+|\d+\.?\d*)(?:[eE][+-]?\d+)?)\s*,?\s*([+-]?(?:\d*\.\d+|\d+\.?\d*)(?:[eE][+-]?\d+)?)/);
+                const relative = d[0] === 'm';
+                const start = {
+                    x: Number(move[1]) + (relative ? end.x : 0),
+                    y: Number(move[2]) + (relative ? end.y : 0)
+                };
+                if (relative) {
+                    // Extra coordinate pairs after m are implicit relative lines.
+                    let rest = d.slice(move[0].length);
+                    if (/^\s*,?\s*[+\-.\d]/.test(rest)) rest = ' l ' + rest.replace(/^\s*,/, '');
+                    d = `M ${start.x},${start.y} ${rest}`;
+                }
+                segment.setAttribute('d', d);
+                group.appendChild(segment);
+                const length = segment.getTotalLength();
+                end = length ? segment.getPointAtLength(length) : start;
+                return segment;
+            });
+            path.replaceWith(group);
+            splitPathCache.set(path, segments);
+            return segments;
+        }
         function animatePath(paths, delayLength = null) {
+            // Accept a path, a previously split wrapper, an array or a NodeList.
+            if (paths.localName === 'g') paths = paths.querySelectorAll('path');
+            paths = (paths.localName === 'path' ? [paths] : Array.from(paths)).flatMap(splitSubpaths);
             let currentDelay = 0;
             let totalLength = 0
             paths.forEach((path, index) => {
@@ -245,6 +288,7 @@
             })
             paths.forEach((path, index) => {
                 let length = path.getTotalLength();
+                if (length === 0) return;
                 let duration = delayLength != null ? totalDuration / 96 * length : (length / totalLength) * totalDuration
                 path.style.transition = 'none';
                 path.style.strokeDasharray = length;
