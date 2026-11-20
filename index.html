@@ -102,11 +102,11 @@
     </div>
     <script>
         let theme = "dark"
-        let mode = "animated"
+        let mode = "static"
         let svgNuAnim = null
         let svgNuStat = null
         let timeInterval = null
-        let totalDuration = 10000
+        let totalDuration = 3000
 
         const themeButton = document.getElementById('themeButton');
         const modeButton = document.getElementById('modeButton');
@@ -179,12 +179,7 @@
             bodyElement.style.backgroundColor = pathColor
             const pathList = Array.from(document.querySelectorAll('path'));
             pathList.forEach((path, index) => {
-                if (mode == "animated") {
-                    path.style.stroke = pathColor
-                }
-                else {
-                    path.style.fill = pathColor
-                }
+                path.style.stroke = pathColor
             })
             // inputs
             const inputs = document.querySelectorAll("#input-container > *");
@@ -217,7 +212,6 @@
                     }
                     else if (index == 1) {
                         // Single stroke
-                        console.log("blockList",blockList)
                         signature = animatePath(blockList)
                         // -------------------------------------------------------
                         // Line and Sign
@@ -232,9 +226,10 @@
                         // signature_a = animatePath(blockList.slice(4, -1))
                     }
                     else {
-                        name1 = animatePath(blockList.slice(0, 5))
-                        name2 = animatePath(blockList.slice(5, 13))
-                        name3 = animatePath(blockList.slice(13))
+                        console.log("blockList",blockList)
+                        name1 = animatePath(blockList.slice(0, 2))
+                        name2 = animatePath(blockList.slice(2, 5))
+                        name3 = animatePath(blockList.slice(5))
                     }
                 })
             }
