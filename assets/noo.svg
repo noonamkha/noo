@@ -10,44 +10,45 @@
         stroke-linecap: round;
         stroke-linejoin: round;"
     xmlns="http://www.w3.org/2000/svg">
-
     <style>
         path {
             stroke-dasharray: 1;
             stroke-dashoffset: 1;
-            animation-duration: 4s;
+            animation-duration: 6s;
             animation-timing-function: ease-in-out;
             animation-iteration-count: infinite;
         }
-
         .ani-1 { animation-name: ani-1; }
         .ani-2 { animation-name: ani-2; }
         .ani-3 { animation-name: ani-3; }
         .ani-4 { animation-name: ani-4; }
         .ani-o { animation-name: ani-o; }
-
         @keyframes ani-1 {
-            0%, 4%      { stroke-dashoffset: 1; }
-            52%, 100%   { stroke-dashoffset: 0; }
+            0%, 10%     { stroke-dashoffset: 0; }
+            40%         { stroke-dashoffset: 0.9999; }
+            70%, 100%   { stroke-dashoffset: 0; }
         }
         @keyframes ani-2 {
-            0%, 4%      { stroke-dashoffset: 1; }
-            36%, 100%   { stroke-dashoffset: 0; }
+            0%, 20%     { stroke-dashoffset: 0; }
+            40%         { stroke-dashoffset: 0.9999; }
+            60%, 100%   { stroke-dashoffset: 0; }
         }
         @keyframes ani-3 {
-            0%, 36%     { stroke-dashoffset: 1; }
-            52%, 100%   { stroke-dashoffset: 0; }
+            0%, 10%     { stroke-dashoffset: 0; }
+            20%, 60%    { stroke-dashoffset: 1; }
+            70%, 100%   { stroke-dashoffset: 0; }
         }
         @keyframes ani-4 {
-            0%, 52%     { stroke-dashoffset: 1; }
-            68%, 100%   { stroke-dashoffset: 0; }
+            0%          { stroke-dashoffset: 0; }
+            10%, 70%    { stroke-dashoffset: 1; }
+            80%, 100%   { stroke-dashoffset: 0; }
         }
         @keyframes ani-o {
-            0%, 36%     { stroke-dashoffset: 1; }
-            68%, 100%   { stroke-dashoffset: 0; }
+            0%          { stroke-dashoffset: 0; }
+            20%, 60%    { stroke-dashoffset: 1; }
+            80%, 100%   { stroke-dashoffset: 0; }
         }
     </style>
-
     <g id="content">
         <g id="tetris">
             <path id="tetris-1n"
@@ -56,68 +57,59 @@
                 d=" M 272,336 V 432
                     M 368,368 V 272
                     M 304,336 V 304 H 272 V 272
-                    M 336,368 V 400 H 368 V 432"
-                />
+                    M 336,368 V 400 H 368 V 432" />
             <path id="tetris-2a"
                 class="ani-1"
                 pathLength="2"
                 d=" M 432,336 V 304 H 464 V 272
-                    M 528,336 V 304 H 496 V 272"
-                />
+                    M 528,336 V 304 H 496 V 272" />
             <path id="tetris-3m"
                 class="ani-1"
                 pathLength="4"
                 d=" M 592,336 V 432
                     M 688,336 V 432
                     M 624,336 V 304 H 592 V 272
-                    M 656,336 V 304 H 688 V 272"
-                />
+                    M 656,336 V 304 H 688 V 272" />
             <path id="tetris-4k"
                 class="ani-1"
                 pathLength="4"
                 d=" M 784,336 H 752 V 272
                     M 784,368 H 752 V 432
                     M 816,336 V 304 H 848 V 272
-                    M 816,368 V 400 H 848 V 432"
-                />
+                    M 816,368 V 400 H 848 V 432" />
             <path id="tetris-5h"
                 class="ani-1"
                 pathLength="4"
                 d=" M 944,336 H 912 V 272
                     M 944,368 H 912 V 432
                     M 976,336 H 1008 V 272
-                    M 976,368 H 1008 V 432"
-                />
+                    M 976,368 H 1008 V 432" />
             <path id="tetris-6a"
                 class="ani-1"
                 pathLength="2"
                 d=" M 1072,336 V 304 H 1104 V 272
-                    M 1168,336 V 304 H 1136 V 272"
-                />
+                    M 1168,336 V 304 H 1136 V 272" />
             <path id="tetris-7t-1"
                 class="ani-2"
                 pathLength="4"
                 d=" M 432,368 V 432
                     M 528,368 V 432
                     M 1072,368 V 432
-                    M 1168,368 V 432"
-                />
+                    M 1168,368 V 432" />
             <path id="tetris-7t-2"
                 class="ani-3"
                 pathLength="4"
                 d=" M 440,400 H 464
                     M 520,400 H 496
                     M 1080,400 H 1104
-                    M 1160,400 H 1136"
-                />
+                    M 1160,400 H 1136" />
             <path id="tetris-8o-1"
                 class="ani-4"
                 pathLength="4"
                 d=" M 464,368 V 336
                     M 496,368 V 336
                     M 1104,368 V 336
-                    M 1136,368 V 336"
-                />
+                    M 1136,368 V 336" />
             <path id="tetris-8o-2"
                 class="ani-4"
                 pathLength="4"
@@ -125,24 +117,20 @@
                 d=" M 472,368 V 336
                     M 488,368 V 336
                     M 1112,368 V 336
-                    M 1128,368 V 336"
-                />
+                    M 1128,368 V 336" />
         </g>
-
         <g id="signature">
             <path id="sign"
                 class="ani-1"
                 pathLength="1"
-                d=" M 436,694
-                    A 55,55 0 0 1 480,672
+                d=" M 436,694 A 55,55 0 0 1 480,672
                     A 16,16 0 0 1 496,688 V 736 V 712
                     A 40,40 0 0 1 536,672
                     A 24,24 0 0 1 560,696 V 720
                     A 16,16 0 0 0 576,736
                     A 55,55 0 0 0 624,708
 
-                    V 544,944
-                    A 16,16 0 0 1 608,960
+                    V 544,944 A 16,16 0 0 1 608,960
                     A 32,32 0 0 1 576,928
                     A 424,424 0 0 1 624,732 V 712
                     A 40,40 0 0 1 664,672
@@ -153,8 +141,7 @@
                     A 30,30 0 0 0 704,736
                     A 55,55 0 0 0 752,708
 
-                    V 544,944
-                    A 16,16 0 0 1 736,960
+                    V 544,944 A 16,16 0 0 1 736,960
                     A 32,32 0 0 1 704,928
                     A 424,424 0 0 1 752,732 V 712
                     A 40,40 0 0 1 792,672
@@ -162,64 +149,52 @@
                     A 16,16 0 0 0 832,736
                     A 55,55 0 0 0 880,708
 
-                    V 712
-                    A 24,24 0 0 0 904,736
+                    V 712 A 24,24 0 0 0 904,736
                     A 40,40 0 0 0 944,696
                     A 24,24 0 0 0 920,672
                     A 40,40 0 0 0 880,712
                     A 24,24 0 0 0 904,736
                     A 40,40 0 0 0 944,696 V 672,720
                     A 16,16 0 0 0 960,736
-                    A 55,55 0 0 0 1004,714"
-                />
+                    A 55,55 0 0 0 1004,714" />
             <path id="dash"
                 class="ani-4"
                 pathLength="1"
-                d=" M 272,768 H 1168"
-            />
+                d=" M 272,768 H 1168" />
         </g>
-
         <g id="name">
             <path id="name-1n"
                 class="ani-2"
                 pathLength="1"
-                d=" M 272,1168 V 1040 L 352,1120 V 1168,1040"
-            />
+                d=" M 272,1168 V 1040 L 352,1120 V 1168,1040" />
             <path id="name-2o"
                 class="ani-o"
                 pathLength="1"
-                d=" M 441.6,1156.8 L 435.2,1161.6 A 32,32 0 1 1 441.6,1116.8 L 470.4,1155.2 A 32,32 0 1 0 476.8,1110.4 L 470.4,1115.2"
-            />
+                d=" M 441.6,1156.8 L 435.2,1161.6 A 32,32 0 1 1 441.6,1116.8 L 470.4,1155.2 A 32,32 0 1 0 476.8,1110.4 L 470.4,1115.2" />
             <path id="name-3n"
                 class="ani-2"
                 pathLength="1"
-                d=" M 560,1168 V 1040 L 640,1120 V 1168,1040"
-            />
+                d=" M 560,1168 V 1040 L 640,1120 V 1168,1040" />
             <path id="name-4a"
                 class="ani-3"
                 pathLength="1"
-                d=" M 736,1128 A 24,24 0 0 0 712,1104 A 40,40 0 0 0 672,1144 A 24,24 0 0 0 696,1168 A 40,40 0 0 0 736,1128 V 1104,1168"
-            />
+                d=" M 736,1128 A 24,24 0 0 0 712,1104 A 40,40 0 0 0 672,1144 A 24,24 0 0 0 696,1168 A 40,40 0 0 0 736,1128 V 1104,1168" />
             <path id="name-5m"
                 class="ani-4"
                 pathLength="1"
-                d=" M 768,1104 V 1168 V 1136 A 32,32 0 0 1 800,1104 A 16,16 0 0 1 816,1120 V 1168 V 1136 A 32,32 0 0 1 848,1104 A 16,16 0 0 1 864,1120 V 1168"
-            />
+                d=" M 768,1104 V 1168 V 1136 A 32,32 0 0 1 800,1104 A 16,16 0 0 1 816,1120 V 1168 V 1136 A 32,32 0 0 1 848,1104 A 16,16 0 0 1 864,1120 V 1168" />
             <path id="name-6k"
                 class="ani-2"
                 pathLength="1"
-                d=" M 896,1040 V 1168 V 1120 L 976,1040 L 912,1104 L 976,1168"
-            />
+                d=" M 896,1040 V 1168 V 1120 L 976,1040 L 912,1104 L 976,1168" />
             <path id="name-7h"
                 class="ani-3"
                 pathLength="1"
-                d=" M 1008,1040 V 1168 V 1144 A 40,40 0 0 1 1048,1104 A 24,24 0 0 1 1072,1128 V 1168"
-            />
+                d=" M 1008,1040 V 1168 V 1144 A 40,40 0 0 1 1048,1104 A 24,24 0 0 1 1072,1128 V 1168" />
             <path id="name-8a"
                 class="ani-4"
                 pathLength="1"
-                d=" M 1168,1128 A 24,24 0 0 0 1144,1104 A 40,40 0 0 0 1104,1144 A 24,24 0 0 0 1128,1168 A 40,40 0 0 0 1168,1128 V 1104,1168"
-            />
+                d=" M 1168,1128 A 24,24 0 0 0 1144,1104 A 40,40 0 0 0 1104,1144 A 24,24 0 0 0 1128,1168 A 40,40 0 0 0 1168,1128 V 1104,1168" />
         </g>
     </g>
 </svg>
