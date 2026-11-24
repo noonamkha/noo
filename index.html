@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nu</title>
+    <title>Noo</title>
     <link rel="icon" href="assets/nerd.svg" type="image/svg+xml">
     <style>
         @font-face {
-            font-family: "Quicksand";
+            font-family: "Noto Sans";
             src: url("fonts/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
             font-weight: 300 700;
             font-style: normal;
@@ -21,7 +21,7 @@
 
         body {
             margin: 0;
-            font-family: "Quicksand";
+            font-family: "Noto Sans";
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -46,7 +46,7 @@
             border: 1px solid;
             font: inherit;
             height: 32px;
-            font-size: small;
+            font-size: 10px;
         }
 
         input[type="number"]::-webkit-inner-spin-button,
@@ -96,17 +96,16 @@
         <div id="input-container">
             <button id="themeButton">light</button>
             <button id="modeButton">static</button>
-            <input id="durationInput" type="number" min="0" step="100">
+            <input id="durationInput" type="number" min="0" step="0.5" title="Duration (s)">
             <input id="sizeSlider" type="number" min="10" step="10" title="Adjust Size">
         </div>
     </div>
     <script>
         let theme = "dark"
         let mode = "animated"
-        let svgNuAnim = null
-        let svgNuStat = null
+        let svgNoo = null
         let timeInterval = null
-        let totalDuration = 10000
+        let totalDuration = 4
 
         const themeButton = document.getElementById('themeButton');
         const modeButton = document.getElementById('modeButton');
@@ -150,7 +149,7 @@
             else {
                 totalDuration = inputDuration
             }
-            resetInterval()
+            loadAndAnimateSignature()
         });
 
         themeButton.addEventListener('click', function () {
@@ -158,15 +157,11 @@
             themeButton.textContent = theme
             setTheme()
         });
-        function resetInterval() {
-            clearInterval(timeInterval)
-            loadAndAnimateSignature()
-            timeInterval = setInterval(loadAndAnimateSignature, totalDuration + 1000);
-        }
+        
         modeButton.addEventListener('click', function () {
             mode = mode == 'animated' ? 'static' : 'animated'
             modeButton.textContent = mode
-            resetInterval()
+            loadAndAnimateSignature()
         });
         async function setTheme() {
             let backgroundColor = theme == "light" ? "#ffffff" : "#000000"
@@ -179,12 +174,7 @@
             bodyElement.style.backgroundColor = pathColor
             const pathList = Array.from(document.querySelectorAll('path'));
             pathList.forEach((path, index) => {
-                if (mode == "animated") {
-                    path.style.stroke = pathColor
-                }
-                else {
-                    path.style.fill = pathColor
-                }
+                path.style.stroke = pathColor
             })
             // inputs
             const inputs = document.querySelectorAll("#input-container > *");
@@ -196,123 +186,32 @@
             });
         }
         async function loadAndAnimateSignature() {
-            if (svgNuAnim == null || svgNuStat == null) {
-                const responseNuAnim = await fetch('assets/noo.svg');
-                const responseNuStat = await fetch('assets/noo.svg');
-                svgNuAnim = await responseNuAnim.text();
-                svgNuStat = await responseNuStat.text();
+            const isFirstLoad = svgNoo == null;
+            if (isFirstLoad) {
+                const responseNoo = await fetch('assets/noo.svg');
+                svgNoo = await responseNoo.text();
             }
             const container = document.getElementById('signature-container');
-            container.innerHTML = mode == "animated" ? svgNuAnim : svgNuStat;
+            container.innerHTML = svgNoo;
+            if (isFirstLoad) {
+                // let the browser resolve the SVG's own animation-duration (e.g. "4s") as the default
+                const firstPath = container.querySelector('path');
+                const defaultDuration = parseFloat(getComputedStyle(firstPath).animationDuration);
+                if (!isNaN(defaultDuration)) totalDuration = defaultDuration;
+                durationInput.value = totalDuration;
+            }
             await setTheme()
-            if (mode == 'animated') {
-                const layers = Array.from(document.querySelectorAll('g'))
-                layers.forEach((layer, index) => {
-                    console.log("lauers", layers)
-                    const blockList = Array.from(layer.querySelectorAll('path'));
-                    if (index == 0) {
-                        tetris1 = animatePath(blockList.slice(0, -14), delayLength = 0)
-                        tetris2 = animatePath(blockList.slice(-14, -10), delayLength = 48)
-                        tetris3 = animatePath(blockList.slice(-10), delayLength = 72)
-                    }
-                    else if (index == 1) {
-                        // Single stroke
-                        console.log("blockList",blockList)
-                        signature = animatePath(blockList)
-                        // -------------------------------------------------------
-                        // Line and Sign
-                        // signature_line = animatePath(blockList.slice(-1))
-                        // signature_n = animatePath(blockList.slice(0, -1))
-                        // -------------------------------------------------------
-                        // Multiple strokes
-                        // signature_line = animatePath(blockList.slice(-1))
-                        // signature_n = animatePath(blockList.slice(0, 2))
-                        // signature_k = animatePath(blockList.slice(2, 3))
-                        // signature_h = animatePath(blockList.slice(3, 4))
-                        // signature_a = animatePath(blockList.slice(4, -1))
-                    }
-                    else {
-                        name1 = animatePath(blockList.slice(0, 5))
-                        name2 = animatePath(blockList.slice(5, 13))
-                        name3 = animatePath(blockList.slice(13))
-                    }
-                })
+            if (mode == 'static') {
+                const styleElement = container.querySelector('svg > style');
+                if (styleElement) styleElement.remove();
+            } else {
+                container.querySelectorAll('path').forEach(path => {
+                    path.style.animationDuration = `${totalDuration}s`;
+                });
             }
-        }
-        const splitPathCache = new WeakMap();
-        function splitSubpaths(path) {
-            if (splitPathCache.has(path)) return splitPathCache.get(path);
-            const subpaths = (path.getAttribute('d') || '').match(/[Mm][^Mm]*/g) || [];
-            if (subpaths.length <= 1) return [path];
-
-            const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-            // Keep the original styling, transform and ID on the wrapper.
-            for (const attribute of path.attributes) {
-                if (attribute.name !== 'd' && attribute.name !== 'pathLength') {
-                    group.setAttributeNS(attribute.namespaceURI, attribute.name, attribute.value);
-                }
-            }
-            let end = { x: 0, y: 0 };
-            const segments = subpaths.map(d => {
-                const segment = document.createElementNS(group.namespaceURI, 'path');
-                const move = d.match(/^[Mm]\s*([+-]?(?:\d*\.\d+|\d+\.?\d*)(?:[eE][+-]?\d+)?)\s*,?\s*([+-]?(?:\d*\.\d+|\d+\.?\d*)(?:[eE][+-]?\d+)?)/);
-                const relative = d[0] === 'm';
-                const start = {
-                    x: Number(move[1]) + (relative ? end.x : 0),
-                    y: Number(move[2]) + (relative ? end.y : 0)
-                };
-                if (relative) {
-                    // Extra coordinate pairs after m are implicit relative lines.
-                    let rest = d.slice(move[0].length);
-                    if (/^\s*,?\s*[+\-.\d]/.test(rest)) rest = ' l ' + rest.replace(/^\s*,/, '');
-                    d = `M ${start.x},${start.y} ${rest}`;
-                }
-                segment.setAttribute('d', d);
-                group.appendChild(segment);
-                const length = segment.getTotalLength();
-                end = length ? segment.getPointAtLength(length) : start;
-                return segment;
-            });
-            path.replaceWith(group);
-            splitPathCache.set(path, segments);
-            return segments;
-        }
-        function animatePath(paths, delayLength = null) {
-            // Accept a path, a previously split wrapper, an array or a NodeList.
-            if (paths.localName === 'g') paths = paths.querySelectorAll('path');
-            paths = (paths.localName === 'path' ? [paths] : Array.from(paths)).flatMap(splitSubpaths);
-            let currentDelay = 0;
-            let totalLength = 0
-            paths.forEach((path, index) => {
-                totalLength += path.getTotalLength()
-            })
-            paths.forEach((path, index) => {
-                let length = path.getTotalLength();
-                if (length === 0) return;
-                let duration = delayLength != null ? totalDuration / 96 * length : (length / totalLength) * totalDuration
-                path.style.transition = 'none';
-                path.style.strokeDasharray = length;
-                path.style.strokeDashoffset = length;
-
-                const animated = path.animate(
-                    [
-                        { strokeDashoffset: length },
-                        { strokeDashoffset: 0 }
-                    ],
-                    {
-                        duration: duration,
-                        delay: delayLength != null ? delayLength / 96 * totalDuration : currentDelay,
-                        fill: 'forwards',
-                        easing: 'ease-in-out'
-                    }
-                );
-                currentDelay += duration;
-            });
-            return totalLength
         }
         themeButton.click()
         modeButton.click()
-        durationInput.value = totalDuration
     </script>
 </body>
 
